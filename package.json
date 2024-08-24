@@ -1,0 +1,16 @@
+{
+  "name": "microgradJS",
+  "version": "1.0.0",
+  "description": "Typescript Micrograd library based on Andrej Karpathy's micrograd (python)",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "test": "ts-node test/test_engine.ts"
+  },
+  "dependencies": {
+    "treeify": "^1.1.0"
+  }
+}
